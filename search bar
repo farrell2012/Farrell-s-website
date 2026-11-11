@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Bar</title>
+    <link rel="stylesheet" href="css search bar">
+</head>
+<body>
+
+
+<div class="container">
+    <form action="">
+        <Input type="text" placeholder="search anything" name="q">
+        <button type="submit"><img src="images/search.png"></button>
+    </form>
+</div>
+
+</body>
+</html>

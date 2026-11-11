@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+   
+    <style>
+        body {
+            background-color: rgb(0,0,0)
+        }
+        body {
+            color: rgb(253, 253, 253)
+        }
+        
+        .Hpo {
+            background-color:rgb(37, 109, 37);
+            font-family: montserrat;
+        }
+
+        #catagories {
+            color: rgb(0, 221, 255)
+        }
+        #catagories {
+            background-color: rgb(255, 34, 0)
+        }
+
+        #lure {
+            background-color:rgb(234, 0, 255)             
+        }
+        #lure {
+              color:rgb(254, 229, 0)
+        }
+
+        #carp {
+            background-color:rgb(64, 138, 51)
+        }
+        #carp {
+            color: rgb(255, 228, 192)
+        }
+
+        #sea {
+            background-color:rgb(45, 45, 233)
+        }
+        #sea {
+            color:rgb(255, 163, 4)
+        }
+
+        .categories {
+
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+         .category {
+            background-color: white;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .category img {
+            width: 60%;
+            height: 190px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .category a {
+            color: #39805B;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background: #f5f5f5;
+            border-radius: 30px;
+            padding: 8px 16px;
+        }
+        .search-bar input {
+            border: none;
+            background: transparent;
+            flex: 1;
+        }
+    </style>
+
+<body>
+    <form action="/search" method="GET">
+    <input type="search" name="q" placeholder="Search..." aria-label="Search">
+    <button type="submit">Search</button>
+    </form>
+    
+
+
+
+
+    <div class="Hpo">
+    <h4>THE UK BEGINNER GUIDE</h4>
+    <h1>BEGINNING FISHING?</h1>
+    <p>If your interested in starting fishing in the UK.You`ve come to the right place...<br>
+    Your journy starts HERE.<br>
+    This is a pro guide on how to start, where to start and what you`ll need for total<br>
+    beginner fisherman. Me and my friend have been fishing for 3 years now, So your in good hands.<br>
+    Discover different fishing styles and find out what equipment you need to catch your<br>
+    first fish for each.<br>
+    </div>
+   <div class="categories">
+
+    <div id="catagories" class="category">
+        <img src="https://www.anglingdirect.co.uk/media/blog/1198/Jan-14.jpg" width="100" height="50" alt="Carp fishing">
+        <h2 id="catagories">Coarse Fishing</h2>
+        <p id="catagories">Start fishing with floats, hooks and simple bait.</p>
+        <a href="coarse.html">Explore guide →</a>
+    </div>
+
+    <div id="lure" class="category">
+        <img src="https://s3.us-east-1.amazonaws.com/images.gearjunkie.com/uploads/2023/03/pike-1.jpg" alt="Lure fishing">
+        <h2>Lure Fishing</h2>
+        <p>Learn how to catch predatory fish using lures.</p>
+        <a href="lure.html">Explore guide →</a>
+    </div>
+
+    <div id="carp" class="category">
+        <img src="https://th.bing.com/th/id/OIP.69HhGaLBc6v5oXEY_tLTsAHaE8?w=248&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" width="350" height="250" alt="Carp fishing">
+        <h2>Carp Fishing</h2>
+        <p>Learn how to catch carp and what equipment you need.</p>
+        <a href="carp.html">Explore guide →</a>
+         </div>
+
+    <div id="sea" class="category">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.zNMJk6W5OtWl1ZrcQrmXdAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="350" height="200" alt="Sea fishing">
+        <h2>Sea Fishing</h2>
+        <p>Discover how to fish from the shore and beach.</p>
+        <a href="sea.html">Explore guide →</a>
+    </div>
+
+    <h2><em>Some info about me.</em></h2>
+</div>
+   <p> I first got into fishing at the ripe age of 10 and started on carp fishing.<br>
+   Although i felt it was a good starting point for me,I had not yet realised that<br>
+   there were much easier ways of fishing.So my advise to you is start on float fishing<br>
+   ,Which is mostly for coarse fishing species.It is probably the easiest type of fishing there<br>
+   is,And is a great stepping stone to decide whether you want to invest more time into<br>
+   the sport(And yes.fishing is a sport).The way i found out about float fishing is through a<br>
+   youtube channel,Fish with carls channel and in his channel he has tutorials and nearly every<br>
+   kind of fishing.But i would recommend you watch his <a href="https://www.bing.com/videos/riverview/relatedvideo?q=fish+with+carl+float+fishing+tutorial&mid=35B4ADFEBE26560ECC7535B4ADFEBE26560ECC75&churl=https%3a%2f%2fwww.youtube.com%2fchannel%2fUC2azWG-2YzlQvqSxIW8xI5g&FORM=VIRE">Float fishing for beginners</a> video.<br>
+   There are quite a bit of species you can catch on a float like:</p>
+   
+    <ul>
+        <li>roach</li>
+        <li>carp</li>
+        <li>chub</li>
+        <li>rudd</li>
+        <li>dase</li>
+        <li>bream</li>
+        <li>tench</li>
+    </ul>
+   
+    <p>As you can probably tell there are many species you can catch on such simple baits,<br>
+    But one main thing to remember is that patience is key and sometimes the fish may take<br>
+    long to find your bait.I wont spoil all the info though since most of it is in the coarse<br>
+    fishing section so  what are you waiting for<br>
+    GO CHECK IT OUT<br></p>
+    <p>You could watch  <a href="https://www.bing.com/videos/riverview/relatedvideo?q=fish+with+carl+lure+vs+bait&mid=A20CC495C5D04F433E67A20CC495C5D04F433E67&churl=https%3a%2f%2fwww.youtube.com%2fchannel%2fUCDH-BQ_G44oIt7f8RdQXNPg&FORM=VIRE">This</a>  fish with carl vid.For more typical advise on lure and coarse/carp fishing.</p>
+</body>
+</html>
