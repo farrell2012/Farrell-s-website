@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://farrell2012.github.io/Farrell-s-website/sitemap.xml
